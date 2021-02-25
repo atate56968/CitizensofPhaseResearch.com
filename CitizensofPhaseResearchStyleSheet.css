@@ -1,0 +1,147 @@
+/* CSS Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body{
+	width: 100%;
+	font-family: 'Ubuntu', sans-serif;
+	background-image: url("images/background.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+#content{
+	width: 70%;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+#header{
+	display: flex;
+}
+#header div{
+	padding: 20px;
+}
+h1{
+	font-size: 3em;
+	font-weight: 700;
+	padding-top: 10px;
+}
+h2{
+	font-size: 1.75em;
+	font-weight: 700;
+	color: #F2AA52;
+}
+h3{
+	font-size: 2em;
+	font-weight: 700;
+	color: #F2AA52;
+}
+#header img{
+	padding: 10px;
+}
+#navlinks{
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	background-color: #09734C;
+	display: flex;
+}
+#navlinks li{
+	text-align: center;
+	vertical-align: center;
+	width: 150px;
+	list-style-type: none;
+	padding: 5px 5px 5px 5px;
+}
+#navlinks li a{
+	color: white;
+	text-decoration: none;
+}
+#navlinks li:hover{
+	background-color: #07512A;
+}
+#navlinks li a:hover{
+	text-decoration: underline;
+}
+#navlinks li:visited{
+	background-color: #07512A;
+}
+#navlinks li a:visited{
+	text-decoration: underline;
+}
+.description{
+	display: flex;
+	width: 85%;
+	margin: auto;
+}
+.description img{
+	margin: 2%;
+}
+.text{
+	padding: 2%;
+	width: auto;
+}
+.text p{
+	font-size: 1.25em;
+}
+.quote{
+	width: 85%;
+	margin: auto;
+	border-top: 2px;
+	border-top-style: solid;
+	border-top-color: #09734C;
+	padding: 50px;
+	text-align: center;
+}
+.quoteheading{
+	text-align: left;
+	padding-bottom: 3%;
+}
+.line{
+	font-style: italic;
+	font-size: 1.5em;
+}
+.writer{
+	padding-left: 50%;
+	font-size: 1.25em;
+}
+#diagram1{
+	width: 50%;
+	padding: 2%;
+	font-size: 1.25em;
+}
+#diagram2{
+	width: 40%;
+	padding: 2%;
+	font-size: 1.25em;
+}
+footer{
+	background-color: #09734C;
+	font-size: .75em;
+	text-align: center;
+	color: white;
+	padding: 40px;
+	alignment-baseline: bottom;
+}
